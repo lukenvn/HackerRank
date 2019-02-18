@@ -13,8 +13,6 @@ public class RepeatedString {
 
         String remainString = s.substring(0, numberOfRemain);
         output += findaInString(remainString);
-
-
         return output;
     }
 
